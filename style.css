@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://ychef.files.bbci.co.uk/976x549/p072bwvx.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.headingfirst{
+    display: flex;
+   justify-content: space-between; 
+}
+.headingsecond{
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}.headingfirst> h3{
+    margin-left: 50px;
+}
+
+.right > ul {
+    list-style-type: none;
+    display: flex;
+}
+.right>ul>li{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+.heading{
+    font-size: 26px;
+    font-weight: 900;
+}
+@media  screen and (max-width: 425px) {
+    .headingfirst{
+        display: grid;
+        justify-content: none;
+        align-items: center;
+    }
+    .headingfirst > h3{
+      margin-left: 85px;
+    }
+    .right > ul{
+        margin-left: 50px;
+    }
+}
